@@ -1,0 +1,13 @@
+{
+  "project_title": "Garden Watering Plan",
+  "goal": "Balance watering schedules across plant groups.",
+  "entity_name": "bed",
+  "amount_label": "liters",
+  "score_label": "stress_score",
+  "categories": [
+    "herbs",
+    "vegetables",
+    "flowers",
+    "trees"
+  ]
+}

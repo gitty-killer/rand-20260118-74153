@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "bed-01",
+      "name": "bed_01",
+      "category": "herbs",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "bed-02",
+      "name": "bed_02",
+      "category": "vegetables",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "bed-03",
+      "name": "bed_03",
+      "category": "flowers",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "bed-04",
+      "name": "bed_04",
+      "category": "trees",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "bed-05",
+      "name": "bed_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "bed-06",
+      "name": "bed_06",
+      "category": "vegetables",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "bed-07",
+      "name": "bed_07",
+      "category": "flowers",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "bed-08",
+      "name": "bed_08",
+      "category": "trees",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "bed-09",
+      "name": "bed_09",
+      "category": "herbs",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "bed-10",
+      "name": "bed_10",
+      "category": "vegetables",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "bed-11",
+      "name": "bed_11",
+      "category": "flowers",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "bed-12",
+      "name": "bed_12",
+      "category": "trees",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "bed-12",
+    "issue_count": 1
+  }
+}
